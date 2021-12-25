@@ -21,3 +21,4 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           title: "Latest Release"
+          prerelease: false
