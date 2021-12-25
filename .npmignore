@@ -1,0 +1,5 @@
+src/
+.gitignore
+app.arc
+input/
+npm-debug.log
