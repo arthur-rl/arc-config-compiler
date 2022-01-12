@@ -44,7 +44,7 @@ export default class Complier {
                     // is not a directory. now checking if file is .arc
                     // TODO: add support for other file types. JSON, YAML etc
                     if(!isDirectory) {
-                        const isArcFile = match.split('.').pop() === "arc";
+                        const isArcFile = match.split('.').pop() === "arc" && !match.includes("_default.arc");
                         if(isArcFile) {
                             const arcFileContents = readFileSync(resolve(match)).toString();
                             if(arcFileContents.length > 0) {
