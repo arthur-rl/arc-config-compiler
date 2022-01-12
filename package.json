@@ -1,6 +1,6 @@
 {
   "name": "arc-config-compiler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compile multiple arc files into one arc config",
   "main": "dist/index,js",
   "repository": {
