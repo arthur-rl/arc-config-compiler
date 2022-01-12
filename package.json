@@ -1,10 +1,10 @@
 {
   "name": "arc-config-compiler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compile multiple arc files into one arc config",
   "main": "dist/index,js",
   "repository": {
-    "type" : "git",
+    "type": "git",
     "url": "https://github.com/arthur-rl/arc-config-compiler.git"
   },
   "scripts": {
